@@ -1,0 +1,84 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+body {
+  color: #3D013C;
+  background-color: #68C2E5;
+}
+
+#heading {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  margin-top: .5em;
+  margin-bottom: .25em;
+}
+
+#img {
+  padding-bottom: .75em;
+}
+
+#submission {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.labels {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+input[type=text] {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 5px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+input[type=text]:focus {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.25em;
+  font-weight: bold;
+  border-color: #333;
+}
+
+input[type=submit] {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 5px 15px;
+  background: #ccc;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#title {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  color: #3D013C;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.75em;
+  margin-bottom: .5em;
+}
+
+#songLyrics {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  color: #3D013C;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.25em;
+}
